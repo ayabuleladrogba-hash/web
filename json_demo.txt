@@ -1,6 +1,6 @@
 {
-    "name":"John",
-    "age":31,
+    "name":"koko",
+    "age":39,
     "pets":[
         { "animal":"dog", "name":"Fido" },
         { "animal":"cat", "name":"Felix" },
