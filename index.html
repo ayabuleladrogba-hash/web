@@ -16,7 +16,7 @@ xmlhttp.onreadystatechange = function() {
     var myObj = JSON.parse(this.responseText);
     document.getElementById("demo").innerHTML = myObj.name;
     document.getElementById("demo2").innerHTML = myObj.age;
-    document.getElementById("demo3").innerHTML = myObj.pet;
+    document.getElementById("demo3").innerHTML = myObj.pets;
   }
 };
 xmlhttp.open("GET", "json_demo.txt", true);
